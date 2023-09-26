@@ -31,6 +31,7 @@ Now that the programs are on your machine, we will compile and run them.
 ## 2.1 Compiling
 
 Let's make sure the build is set up properly. Run the following command in terminal to compile with maven:
+
 ```
 mvn compile
 ```
@@ -38,8 +39,10 @@ mvn compile
 ## 2.2 Running the program / Packaging
 
 Run the following command in terminal to run the tests:
+
 ```
 mvn package
+mvn test
 ```
 
 ### If done properly, the program should successfully run.
