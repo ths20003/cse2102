@@ -1,4 +1,4 @@
-### Lab 1 Setup - CSE2102 (Team Otters)
+### Lab 4 Setup - CSE2102 (Team Otters)
 
 # 1. Initialize the program
 
