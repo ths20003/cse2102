@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Score Page</title>
+</head>
+<body>
+    <h2>Score Page</h2>
+    
+    <!-- Display quiz questions and user's score -->
+    <div th:if="${questions != null}">
+        <h3>Your Score</h3>
+        <p>Correct Answers: <span th:text="${score}"></span></p>
+        
+        <h3>Quiz Questions</h3>
+        <div th:each="question : ${questions}">
+            <p th:text="${question.question}"></p>
+            <ul>
+                <li th:each="option : ${question.options}" th:text="${option}"></li>
+            </ul>
+            <p>Your Answer: <span th:text="${question.userAnswer}"></span></p>
+        </div>
+    </div>
+</body>
+</html>
