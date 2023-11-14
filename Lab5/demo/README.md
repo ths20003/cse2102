@@ -12,6 +12,17 @@ cd cse2102/Lab5/demo
 
 Open the folder in VSCode Virtual Machine in your web browser.
 
+**Edit HomeController.java to have it work with your terminal:**
+
+```shell
+
+cse2102/Lab5/demo/src/main/HomeController.java
+```
+within this java file, you want to adjust the following found in lines "31" and "42" with your VMID
+
+``redirect:https://NETID-vm.cse.uconn.edu/proxy/8091/not_home``                                                                               ``redirect:https://NETID-vm.cse.uconn.edu/proxy/8091/test``
+
+
 Run Tests and Launch the Project:
 While in the demo folder, run the following commands:
 
